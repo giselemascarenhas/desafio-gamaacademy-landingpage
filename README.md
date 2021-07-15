@@ -1,6 +1,6 @@
 # Desafio
 
-O desafio foi idealizado pela Gama Academy em parceria com a VTEX que consiste em criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
+O desafio foi idealizado pela Gama Academy em parceria com a VTEX e consiste em criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
 
 ### Entregáveis:
 
