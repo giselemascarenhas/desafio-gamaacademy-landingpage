@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HAMBURGAMA</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./assets/img/logo.png" class="logo"></a> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="formulario.html">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Este não é um simples Hamburguer.<br><br> Isso é <span>HAMBURGAMA</span></h2>
+                <p><br>Somos especializados no que há de melhor no mundo: <b>Hamburguer.</b><br> 
+                <br>Em qualquer hora ou lugar, tem uma Hamburgama pertinho de você!<br><br><br>
+                <a href="formulario.html">Realize aqui o seu cadastro e aproveite nossas promoções</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/img/img1.png" class="hamburgueria">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./assets/img/thumb1.png" onclick="imgSlider('./assets/img/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="./assets/img/thumb2.png" onclick="imgSlider('./assets/img/img2.png');changeCircleColor('#FCDA31')"></li>
+            <li><img src="./assets/img/thumb3.png" onclick="imgSlider('./assets/img/img3.png');changeCircleColor('#DE2626')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./assets/img/facebook.png"></a></li>
+            <li><a href="#"><img src="./assets/img/instagram.png"></a></li>
+            <li><a href="#"><img src="./assets/img/twitter.png"></a></li>
+        </ul>
+
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.hamburgueria').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
