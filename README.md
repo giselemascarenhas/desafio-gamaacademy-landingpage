@@ -1,17 +1,15 @@
-# :zap: Desafio :zap:
+# Desafio
 
-O desafio foi idealizado pela Gama Academy em parceria com a VTEX e consiste em criar um sistema e-commerce para inventário de produtos e dados de clientes
+O desafio foi idealizado pela Gama Academy em parceria com a VTEX e consiste em criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
 
-### :pushpin: Entregáveis:
+### Entregáveis:
 
-* Os dados de clientes, endereços e produtos devem estar devidamente estruturados
-* Dados no localstorage
-* Código fonte no github com o arquivo README detalhando as funcionalidades da programação
+* Template do site oficial;
+* Landing page de promoções, estilo black friday; 
+* Cadastre seu e-mail para receber promoções;
+* Dados no localstorage;
+* Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem;
 
-### MASC 
-
-* Pequena loja virtual :heavy_check_mark: 
-* Produtos devidamente estruturados :heavy_check_mark: 
-* Campo para inserir e-mail com armazenamento no localstorage :heavy_check_mark: 
-
-Para visualizar o projeto final no seu navegador acesse o link: https://agitated-brattain-444203.netlify.app 
+#### HAMBURGAMA
+O que me inspirou a realizar este projeto foi uma das coisas que mais amo no mundo, Hamburguer :smile:
+Para visualizar o projeto final no seu navegador acesse o link: https://tender-kilby-77eef3.netlify.app/ 
